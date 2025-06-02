@@ -57,7 +57,7 @@ const CurtainTransition = () => {
                         left: 0,
                         right: 0,
                         bottom: 0,
-                        backgroundColor: "#000", // Black curtain (adjust color if needed)
+                        backgroundColor: "#fff", // Black curtain (adjust color if needed)
                         zIndex: 9999,
                         pointerEvents: "none",
                     }}
