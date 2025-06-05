@@ -11,7 +11,7 @@ const LocationImage = () => {
             WAYANAD, KERALA
           </h1>
           <div>
-            <h1 className="text-[#fff] font-ivy font-normal sm:text-[44px] mobile:text-[32px] w-1/2">
+            <h1 className="text-[#fff] font-ivy font-normal sm:text-[44px] mobile:text-[32px]">
               Land Of Paddy Fields
             </h1>
             <p className="text-secondary font-albertSans sm:text-xl opacity-80">

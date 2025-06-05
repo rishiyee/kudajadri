@@ -21,10 +21,10 @@ const VideoBackground = () => {
       <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
 
       {/* Content */}
-      <div className="absolute top-0 left-0 right-0 z-20">
+      <div className="absolute top-0 left-0 right-0 z-20 h-[100%]">
         <Header />
-        <div className="flex flex-col gap-5">
-          <div className="mobile:pt-[50%] flex flex-col gap-5 items-center sm:pt-[30%] mobile:p-4 sm:p-0">
+        <div className="flex flex-col gap-5 h-[100%] justify-end">
+          <div className="flex flex-col gap-5 items-center sm:pt-[30%] mobile:p-4 sm:p-0">
             <div className="flex flex-col gap-2.5">
               <div className="flex items-center gap-2.5">
                 <div className="border border-[#FFF] flex-1" />
@@ -33,12 +33,12 @@ const VideoBackground = () => {
                 </h1>
                 <div className="border border-[#FFF] flex-1" />
               </div>
-              <h1 className="sm:text-7xl text-[#FFF] font-staylista mobile:text-5xl mobile:w-1/2 sm:w-full text-center m-auto">
+              <h1 className="sm:text-7xl text-[#FFF] font-staylista mobile:text-5xl sm:w-full text-center m-auto">
                 Feel the Difference
               </h1>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-[120px]">
             <button className="px-6 py-3 rounded-full border text-[#FFF]" onClick={() => {navigate("/contact")}}>
               Book Now
             </button>

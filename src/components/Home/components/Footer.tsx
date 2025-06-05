@@ -16,8 +16,8 @@ const Footer = () => {
         <span className="block text-[#fff] font-ivy sm:text-[44px] mobile:text-[32px]">
           Ready to discover nature? Book now.
         </span>
-        <div>
-          <button className="px-6 py-3 bg-[#fff] rounded-full text-primary font-albertSans text-base font-medium capitalize" onClick={() => {navigate("/contact")}}>
+        <div className="w-[100%] flex items-start">
+          <button className=" px-6 py-3 bg-[#fff] rounded-full text-primary font-albertSans text-base font-medium capitalize" onClick={() => {navigate("/contact")}}>
             Book Now
           </button>
         </div>
