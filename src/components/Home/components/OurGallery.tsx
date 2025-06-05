@@ -79,19 +79,19 @@ const OurGallery = () => {
             <img
               src={currentImages[0]}
               alt=""
-              className="object-cover size-full rounded-3xl"
+              className="object-cover size-full rounded-[16px]"
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-2 sm:h-[342px]">
             <img
               src={currentImages[1]}
               alt=""
-              className="h-full rounded-3xl flex-1 object-cover"
+              className="h-full rounded-[16px] flex-1 object-cover"
             />
             <img
               src={currentImages[2]}
               alt=""
-              className="h-full rounded-3xl flex-1 object-cover"
+              className="h-full rounded-[16px] flex-1 object-cover"
             />
           </div>
         </motion.div>

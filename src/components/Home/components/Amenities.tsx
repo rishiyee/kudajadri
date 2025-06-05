@@ -9,14 +9,14 @@ const Amenities = () => {
   return (
     <div className="sm:px-[6%] sm:py-32 bg-primary mobile:px-4 mobile:py-14" id="a">
       <div className="flex flex-col sm:gap-16 mobile:gap-8">
-        <div className="flex flex-col gap-6 items-center">
-          <div className="flex flex-col gap-6 font-albertSans items-center">
+        <div className="flex flex-col gap-6 items-start">
+          <div className="flex flex-col gap-6 font-albertSans items-start">
             <p className="uppercase text-[#FFF] font-albertSans">amenities</p>
-            <h1 className="text-[#FFF] font-ivy text-[44px]">
+            <h1 className="text-[#FFF] font-ivy text-[32px]">
               What Awaits You
             </h1>
           </div>
-          <p className="font-albertSans text-secondary text-xl">
+          <p className="font-albertSans text-secondary text-[16px]">
             Discover a perfect blend of heritage, comfort, and nature, designed
             to make your stay truly unforgettable.
           </p>
@@ -53,7 +53,7 @@ export default Amenities;
 
 const AmititiesLogo = ({ logo, title }: { logo: string; title: string }) => {
   return (
-    <div className="flex flex-col gap-2 items-center mobile:py-7 sm:py-0 mobile:border sm:border-none mobile:w-[140px]">
+    <div className="flex flex-col gap-2 items-center mobile:py-7 sm:py-0 mobile:w-[140px]">
       <div>
         <img src={logo} alt="" />
       </div>

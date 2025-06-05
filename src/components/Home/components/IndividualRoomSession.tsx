@@ -26,7 +26,7 @@ export const IndividualRoomSession = ({
         <img
           src={image}
           alt=""
-          className="object-cover size-full rounded-[32px]"
+          className="object-cover size-full rounded-[16px]"
         />
       </div>
       <div className="sm:p-6 sm:flex-1">
